@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", Sans-serif;
+}
+
+.logo {
+    width: 53px;
+    height: 53px;
+}
+
+a.nav-link active :hover {
+    border-bottom: 1px solid #000 !important;
+}
+
+.navbar-link :hover {
+    border-bottom: 1px solid #000;
+}
+
+.dropdown-menu {
+    border: none !important;
+}
+
+.dropdown-menu :hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.hero-head {
+    padding: 35px 0 0 0;
+    color: #4CA6DC;
+}
+
+.hero-con {
+    color: #333;
+    font-size: 54px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+
+.hero-slide {
+    color: #4CA6DC;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.hero-det {
+    color: #333;
+    font-size: 22px;
+}
+
+Button {
+    padding: 15px 45px !important;
+    animation-duration: 0.4s;
+    background-color: transparent !important;
+    background-image: linear-gradient(70deg, #F1C21B 0%, #F1C21B 100%);
+    border-radius: 4px !important;
+    border: none !important;
+}
+
+Button :hover {
+    color: #000 !important;
+}
+
+.landing {
+    padding-top: 15px;
+    max-width: 80%;
+    height: 357px;
+}
+
+.sec-2 {
+    border: 2px solid #fff;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #F3F7FDE6;
+    margin-top: 150px !important;
+    padding-bottom: 200px;
+    box-shadow: 0px 0px 20px 0px rgb(222 222 222 / 50%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 30px 20px 30px 20px;
+    z-index: -1;
+}
+
+.slogan {
+    line-height: 5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.sec-2-con {
+    line-height: 5rem;
+}
+
+.bulb {
+    padding: 0px 0px 0px 45px;
+}
+
+.sec-3 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 100px 0px 100px 0px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: -31px !important;
+    background-color: #fff;
+}
+
+.content-head {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    color: #6A6E77;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icon-holder {
+    background-color: #E8F1FA;
+    fill: #020202;
+    color: #020202;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.btn2 {
+    margin-top: 30px !important;
+}
+
+.sec-4 h2 {
+    color: #000;
+}
+
+.slogan1 {
+    line-height: 6rem;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.sec4-img {
+    width: 300px;
+    height: 250px;
+}
+
+.slogan2 {
+    color: #324059;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: 0.4px;
+    padding: 10px;
+}
+
+.sec4-txt {
+    font-size: 1.2rem;
+}
+
+.sec-5 {
+    margin-top: 150px !important;
+    background: url("src/assets/Images/pic-898989.png") no-repeat;
+    background-size: cover;
+}
+
+.sec-5 h1 {
+    text-align: center;
+    color: #020202;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.sec-5 h3 {
+    text-align: center;
+    color: #324059;
+    font-family: "Poppins", Sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+}
+
+.sec-6 {
+    margin-top: 150px !important;
+}
+
+.sec-6 h4 {
+    color: #020202;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: Bold;
+    text-transform: uppercase;
+    line-height: 1.1em;
+}
+
+.sec-6 h2 {
+    color: #324059;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 41px;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+.sec-6 p {
+    font-family: Quicksand;
+    color: #7a7a7a;
+    font-size: 20px;
+}
+
+.sec-6-img {
+    width: 514px;
+    height: 468px;
+    border-radius: 20px 20px 20px 20px;
+    margin: -60px 0px 0px 65px;
+}
+
+.sec-7 {
+    margin-top: 150px !important;
+}
+
+.sec-7 h1 {
+    color: #324059;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+.sec-7 img {
+    width: 513px;
+    height: 500px;
+}
+
+.sec-7 h3 {
+    font-weight: bold;
+    color: #324059;
+}
+
+.sec-7 p {
+    color: #020202;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sec-8 {
+    margin-top: 150px !important;
+    background: url("src/assets/Images/clients-2.png") no-repeat;
+    background-size: cover;
+}
+
+.sec-8 h1 {
+    color: #324059;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.3em;
+    letter-spacing: 0.4px;
+}
+
+.review-item h5, .clint-pic, .rating, blockquote {
+    text-align: center;
+}
+
+.sec-8 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.review-box {
+    width: 40%;
+    height: 400px;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+.review-box p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 50px;
+}
+
+.sec-9 {
+    margin-top: 150px !important;
+}
+
+.sec-9 h1 {
+    color: #324059;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.3em;
+    letter-spacing: 0.4px;
+}
+
+.ic-1 {
+    width: 204px;
+    height: 75px;
+    margin-top: 40px;
+}
+
+.ic-2 {
+    width: 151px;
+    height: 151px;
+}
+
+.ic-2 {
+    width: 151px;
+    height: 151px;
+}
+
+.ic-2 {
+    width: 151px;
+    height: 151px;
+}
+
+.ic-5 {
+    width: 204px;
+    height: 144px;
+}
+
+.sec-10 {
+    height: 310px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFF;
+    margin-top: 150px !important;
+    padding-bottom: 200px;
+    box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 50%);
+    padding: 30px 20px 30px 20px;
+}
+
+.sec-10 h3 {
+    color: #020202;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 1.1em;
+    letter-spacing: 0.4px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+
+.sec-10 p {
+    margin-top: 25px;
+    margin-bottom: 1.75rem;
+    width: 70%;
+    color: #020202;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.sec-10 img {
+    width: 387px;
+    height: 261px;
+    border-radius: 24px;
+}
+
+.icon-holder1 {
+    background-color: #020202;
+    fill: #020202;
+    color: #FFF;
+    font-size: 30px;
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+}
+
+.end-line {
+    width: 147%;
+    margin-top: 150px;
+    border-bottom: 1px solid #000;
+    margin-left: -24%;
+}
